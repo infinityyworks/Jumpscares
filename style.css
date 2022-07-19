@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+@keyframes highlight {
+  0%, 100% {
+    border: 0px;
+    border-radius: 0%;
+  }
+  50% {
+    border: 20px solid red;
+    border-radius: 100%;
+  }
+}
+
+#title {
+  position: sticky;
+  top: 20px;
+}
+
+#title:hover {
+  animation: highlight 2s infinite;
+}
+
+#title {
+  text-align: center;
+  transform: none;
+}
+
+#no5 {
+  background-color: green;
+  color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+@keyframes zoom {
+  0% {font-size: 20px;}
+  100% {font-size: 1000px;}
+}
+
+#no5:hover {
+  background-color: red;
+  border: 10px groove green;
+  animation: zoom 2s infinite;
+}
+
+#buttonDIV {
+  border: 1px dashed wheat;
+}
+
+@keyframes fade {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+
+#no4:hover {
+  animation: fade 10s infinite;
+}
+
+#no4 {
+  position: static;
+}
+
+@keyframes flash {
+  50% {background-color: red;}
+}
+
+#body.flash {
+  animation: flash 0.00001s 100000;
+}
+
+#no3 {
+  background-color: black;
+  color: yellow;
+  border: 10px solid brown;
+}
+
+#title.grow {
+  transform: scale(10, 10);
+}
+
+#no2 {
+  background-color: #86dafe;
+  border-radius: 100%;
+  border: 0px solid #86dafe;
+}
+
+#ip.zoom {
+  animation: zoom 120s infinite;
+}
+
+html {
+  background-image: linear-gradient(90deg, #dbdfa5aa, #d2b2b2);
+  font-family: Tahoma, Arial, sans-serif;
+}
