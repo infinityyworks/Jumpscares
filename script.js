@@ -1,4 +1,4 @@
-function megamindJumpscare() {
+function imgJumpscare() {
   document.getElementById("no4").src = "megamind.jpeg";
 }
 
