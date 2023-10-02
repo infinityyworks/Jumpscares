@@ -2,4 +2,4 @@
 
 Compliation of the jumpscares ever
 
-https://diamondpixel4k.github.io/Jumpscares/
+https://infinityyworks.github.io/Jumpscares/
